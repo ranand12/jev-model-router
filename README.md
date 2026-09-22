@@ -1,10 +1,10 @@
 # Jev model router
 
-This is the accompanying repository for the [Jev video](https://www.youtube.com/watch?v=rpQqUEmRbaA&t=5s).
+This is the accompanying repository for the [Jev video](https://www.youtube.com/watch?v=rpQqUEmRbaA).
 
 [![Watch the Jev video](https://img.youtube.com/vi/rpQqUEmRbaA/hqdefault.jpg)](https://ranand12.github.io/jev-model-router/)
 
-**[Play the embedded video](https://ranand12.github.io/jev-model-router/)** (starts at 0:05).
+**[Play the embedded video](https://ranand12.github.io/jev-model-router/)**.
 
 A private Cloud Run service that exposes a text and function-tool subset of the OpenAI Chat Completions API. For `model: "auto"`, it asks Jev to choose a capability tier, then forwards the request to the corresponding Gemini model through Google Cloud's OpenAI-compatible endpoint. Callers can also select `fast`, `balanced`, or `deep` directly.
 
